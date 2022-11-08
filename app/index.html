@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style/v3.css" rel="stylesheet">
+    <title>micro:bit</title>
+</head>
+
+<body>
+    <main>
+        <h1>micro:bit</h1>
+        <button id="scan">micro:bit とペア設定</button>
+        <buttonBox id="buttonbox">
+            <button id="connect">micro:bit に接続</button>
+            <button id="disconnect">接続を解除する</button>
+        </buttonBox>
+        <div>
+            <p>あなたの micro:bit の名前</p>
+            <h3 id="device_name">ここに表示されます</h3>
+            <a style="text-decoration:none;" href="chrome://flags/#enable-experimental-web-platform-features">Chrome の設定 🪛</a>
+        </div>
+    </main>
+    <script src="js/bluejelly.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
